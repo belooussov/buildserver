@@ -1,0 +1,4 @@
+
+    - name: fix SE linux
+      command: setsebool -P httpd_can_network_connect true
+
