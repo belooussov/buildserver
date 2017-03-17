@@ -18,6 +18,7 @@ plugins:
   - 'findbugs'          # common bugs can be squashed
 #  - 'fortify360'
   - 'git'              # connect to git
+  - 'github-oauth'     # authenticate via github
   - 'gradle'           # build tool
 # - 'jacoco'           # test coverage
 #  - 'jira'             # Atlassian Jira API
