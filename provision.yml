@@ -31,6 +31,7 @@
 
   tasks:
     - include: tasks/settings.yml
+    - include: tasks/fix_proxy.yml
 
 - name: Target server
   hosts: target
@@ -52,8 +53,10 @@
 #    - ansible-selenium-role
 
   tasks:
-    - include: tasks/tomcat_settings.yml
+#    - include: tasks/tomcat_settings.yml
     - include: tasks/install_docker.yml
+#    - name: Restart iptables
+#      service: name=iptables state=restarted
 
 - name: Ubuntu Box
   hosts: ubuntu
