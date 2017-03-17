@@ -5,7 +5,7 @@ features:
 
 ant_home: "{{jenkins_tools}}/hudson.tasks.Ant_AntInstallation/{{ant_name}}"
 
-ant_version: 1.9.7
+ant_version: 1.10.1
 
 jenkins_data: "/home/jenkins"
 jenkins_home: "/var/lib/jenkins"
